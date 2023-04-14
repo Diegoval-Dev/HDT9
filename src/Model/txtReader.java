@@ -28,7 +28,7 @@ public class txtReader {
             Scanner myReader = new Scanner(myObj);
             while (myReader.hasNextLine()) {
                 String[] line = myReader.nextLine().split(",");
-                words.add(new Word(line[0].trim(),line[1].trim(),line[2].trim()));
+                words.add(new Word(line[0].trim(),line[1].trim()));
             }
             myReader.close();
         } catch (FileNotFoundException e) {
