@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e286fbf9-3612-43e6-a104-040d8f7c7732" name="Changes" comment="CLase txtReader creada">
-      <change beforePath="$PROJECT_DIR$/src/Model/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Word.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/txtReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/txtReader.java" afterDir="false" />
+    <list default="true" id="e286fbf9-3612-43e6-a104-040d8f7c7732" name="Changes" comment="clase WordAssociation creada">
+      <change afterPath="$PROJECT_DIR$/src/Model/Factroy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +13,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -31,13 +32,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -46,7 +47,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681486193672</updated>
-      <workItem from="1681486195466" duration="527000" />
+      <workItem from="1681486195466" duration="1542000" />
+      <workItem from="1681496576476" duration="880000" />
+      <workItem from="1681778551466" duration="301000" />
     </task>
     <task id="LOCAL-00001" summary="Clase Assosiation creada">
       <created>1681486477491</created>
@@ -62,7 +65,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681486588926</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="clase WordAssociation creada">
+      <created>1681486941697</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681486941697</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,6 +92,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Clase Assosiation creada" />
     <MESSAGE value="CLase txtReader creada" />
-    <option name="LAST_COMMIT_MESSAGE" value="CLase txtReader creada" />
+    <MESSAGE value="clase WordAssociation creada" />
+    <option name="LAST_COMMIT_MESSAGE" value="clase WordAssociation creada" />
   </component>
 </project>
