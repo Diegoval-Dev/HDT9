@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e286fbf9-3612-43e6-a104-040d8f7c7732" name="Changes" comment="Implementacion del repositorio de estructuras 5">
-      <change afterPath="$PROJECT_DIR$/src/Model/Dictionary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UI/Ui.java" afterDir="false" />
+    <list default="true" id="e286fbf9-3612-43e6-a104-040d8f7c7732" name="Changes" comment="UI iniciado, Dictionary iniciado">
+      <change afterPath="$PROJECT_DIR$/src/Spanish.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Factroy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Factroy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Dictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Dictionary.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +50,7 @@
       <updated>1681486193672</updated>
       <workItem from="1681486195466" duration="1542000" />
       <workItem from="1681496576476" duration="880000" />
-      <workItem from="1681778551466" duration="1911000" />
+      <workItem from="1681778551466" duration="2674000" />
     </task>
     <task id="LOCAL-00001" summary="Clase Assosiation creada">
       <created>1681486477491</created>
@@ -88,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681779085928</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="UI iniciado, Dictionary iniciado">
+      <created>1681780583423</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1681780583423</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,6 +116,7 @@
     <MESSAGE value="CLase txtReader creada" />
     <MESSAGE value="clase WordAssociation creada" />
     <MESSAGE value="Implementacion del repositorio de estructuras 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementacion del repositorio de estructuras 5" />
+    <MESSAGE value="UI iniciado, Dictionary iniciado" />
+    <option name="LAST_COMMIT_MESSAGE" value="UI iniciado, Dictionary iniciado" />
   </component>
 </project>

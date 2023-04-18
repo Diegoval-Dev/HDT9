@@ -15,7 +15,7 @@ public class txtReader {
     }
 
     public txtReader() {
-        this.fileURL = "D:\\EstructuraDeDatosUVG\\DiccionarioArbolesBinarios\\src\\words.txt";
+        this.fileURL = "D:\\EstructuraDeDatosUVG\\HDT9\\src\\Spanish.txt";
     }
 
     /**
