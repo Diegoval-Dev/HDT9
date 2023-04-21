@@ -1,113 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e286fbf9-3612-43e6-a104-040d8f7c7732" name="Changes" comment="Inicio del diccionario">
-      <change afterPath="$PROJECT_DIR$/src/UI/DictionaryTest.java" afterDir="false" />
+    <list default="true" id="e286fbf9-3612-43e6-a104-040d8f7c7732" name="Changes" comment="Ya funciona todo bien pero el scanner falla">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HDT9.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HDT9.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Model/Dictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Dictionary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Factroy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Factroy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/WordAssociation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/WordAssociation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI/DictionaryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/DictionaryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/UI/Ui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/Ui.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/AbstractIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/AbstractIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/AbstractLinear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/AbstractLinear.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/AbstractList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/AbstractList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/AbstractListIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/AbstractListIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/AbstractMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/AbstractMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/AbstractQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/AbstractQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/AbstractSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/AbstractSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/AbstractStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/AbstractStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/AbstractStructure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/AbstractStructure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/ArrayIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/ArrayIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/Assert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/Assert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/Association.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/Association.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/BTInorderIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/BTInorderIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/BTLevelorderIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/BTLevelorderIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/BTPostorderIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/BTPostorderIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/BTPreorderIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/BTPreorderIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/BinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/BitSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/BitSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/ChainedHashtable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/ChainedHashtableIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/ChainedHashtableIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/CharSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/CharSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/CircularList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/CircularListIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/CircularListIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/Clock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/Clock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/ComparableAssociation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/ComparableAssociation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/ComparableEdge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/ComparableEdge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/ComparadorPalabras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/ComparadorPalabras.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/DoublyLinkedList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/DoublyLinkedListIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/DoublyLinkedListIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/DoublyLinkedNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/DoublyLinkedNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/Edge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/Edge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/Entry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/Entry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/FailedAssertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/FailedAssertion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/FailedInvariant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/FailedInvariant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/FailedPostcondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/FailedPostcondition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/FailedPrecondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/FailedPrecondition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/FileStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/FileStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/Graph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/GraphList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/GraphList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/GraphListAIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/GraphListAIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/GraphListDirected.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/GraphListDirected.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/GraphListEIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/GraphListEIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/GraphListUndirected.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/GraphListUndirected.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/GraphListVertex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/GraphListVertex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/GraphMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/GraphMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/GraphMatrixDirected.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/GraphMatrixDirected.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/GraphMatrixUndirected.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/GraphMatrixUndirected.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/GraphMatrixVertex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/GraphMatrixVertex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/HashAssociation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/HashAssociation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/Hashtable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/Hashtable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/HashtableIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/HashtableIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/KeyIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/KeyIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/Linear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/Linear.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/List.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/Map.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/MapList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/MapList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/Matrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/MergeableHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/MergeableHeap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/NaturalComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/NaturalComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/OrderedList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/OrderedMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/OrderedMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/OrderedStructure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/OrderedStructure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/OrderedVector.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/Palabra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/Palabra.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/PriorityQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/PriorityQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/PriorityVector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/PriorityVector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/Queue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/QueueArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/QueueList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/QueueVector.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/ReadStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/ReadStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/RedBlackIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/RedBlackIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/RedBlackSearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/RedBlackSearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/RedBlackTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/RedBlackTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/ReverseComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/ReverseComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/Set.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/Set.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/SetList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/SetVector.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/SinglyLinkedList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/SinglyLinkedListIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/SinglyLinkedListIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/SkewHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/SkewHeap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/SplayTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/SplayTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/SplayTreeIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/SplayTreeIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/Stack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/StackArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/StackList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/StackVector.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/StructCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/StructCollection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/Structure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/Structure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/Table.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/ValueIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/ValueIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/Vector.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/VectorHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/VectorHeap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/VectorIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/VectorIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/Version.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/Version.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/Vertex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structure5/Vertex.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +58,7 @@
       <recent name="UI" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.DictionaryTest.translate">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="HDT9" />
@@ -183,8 +82,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DictionaryTest.translate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HDT9" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="UI" />
+      <option name="MAIN_CLASS_NAME" value="UI.DictionaryTest" />
+      <option name="METHOD_NAME" value="translate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DictionaryTest.translate" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.DictionaryTest.fillTree" />
       </list>
@@ -205,7 +121,7 @@
       <workItem from="1682038295826" duration="2032000" />
       <workItem from="1682040413569" duration="4000" />
       <workItem from="1682040493388" duration="50000" />
-      <workItem from="1682040579330" duration="1040000" />
+      <workItem from="1682040579330" duration="2794000" />
     </task>
     <task id="LOCAL-00001" summary="Clase Assosiation creada">
       <created>1681486477491</created>
@@ -256,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681781302867</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Ya funciona todo bien pero el scanner falla">
+      <created>1682041908636</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1682041908636</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,6 +203,7 @@
     <MESSAGE value="Implementacion del repositorio de estructuras 5" />
     <MESSAGE value="UI iniciado, Dictionary iniciado" />
     <MESSAGE value="Inicio del diccionario" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inicio del diccionario" />
+    <MESSAGE value="Ya funciona todo bien pero el scanner falla" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ya funciona todo bien pero el scanner falla" />
   </component>
 </project>

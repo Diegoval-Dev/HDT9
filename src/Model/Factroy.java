@@ -6,6 +6,11 @@ import structure5.SplayTree;
 import structure5.Structure;
 
 public class Factroy {
+    /**
+     * Regresa el arbol a utilizar
+     * @param s nombre del arbol
+     * @return el arbol en si
+     */
     public static  Structure<WordAssociation> factory(String s){
         switch (s){
             case "Splay Tree":

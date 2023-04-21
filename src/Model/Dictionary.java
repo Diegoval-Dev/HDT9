@@ -9,23 +9,32 @@ import java.util.Scanner;
 public class Dictionary {
     private static final txtReader txtreader = new txtReader();
     static Structure<WordAssociation> tree;
-    public static void translate(){
-        fillTree();
-        Scanner sc = new Scanner(System.in);
-        String sentence = Ui.ReadInputText();
+
+    /**
+     * Traduce la oracion ingresada
+     * @return
+     */
+    public static String translate(String sentence, String treeText){
+        fillTree(treeText);
         String[] wordsOfSentence = sentence.split(" ");
-        String sentenceSpanish = "";
+        StringBuilder sentenceSpanish = new StringBuilder();
         for (String word: wordsOfSentence) {
             if(tree.contains(new WordAssociation(word,null))){
-                sentenceSpanish = sentence + tree.get(new WordAssociation(word,null)).getValue();
-            }else {
-                sentenceSpanish = sentence + "*"+word+"*";
+                WordAssociation wr = tree.get(new WordAssociation(word,null));
+                sentenceSpanish.append(wr.getValue());
+            }if(!tree.contains(new WordAssociation(word,null))){
+                sentenceSpanish.append("*").append(word).append("*");
             }
         }
-        Ui.print(sentenceSpanish);
+
+        return sentenceSpanish.toString();
     }
-    public static void fillTree(){
-        String treeText = Ui.selectTree();
+
+    /**
+     * Rellena el arbol con la informacion del documento
+     * @param treeText cual arbol usar
+     */
+    public static void fillTree(String treeText){
         assert treeText != null;
         ArrayList<Word> words = txtreader.returnArrWords();
         tree = Factroy.factory(treeText);

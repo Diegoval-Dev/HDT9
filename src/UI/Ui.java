@@ -22,7 +22,7 @@ public class Ui {
     }
     public static String ReadInputText(){
         String a = sc.nextLine();
-        return a;
+        return sc.nextLine();
     }
     public static void print(String m){
         System.out.println(m);
