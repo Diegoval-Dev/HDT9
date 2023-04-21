@@ -20,7 +20,7 @@ public class txtReader {
 
     /**
      * Funcion para leer el documento de texto
-     * @return ArrayList con una linea del calculo en cada elemento
+     * @return ArrayList con las palabras
      */
     public ArrayList<Word> returnArrWords(){
         try {
