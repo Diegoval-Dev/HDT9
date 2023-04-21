@@ -21,6 +21,10 @@ public class Ui {
         }
     }
     public static String ReadInputText(){
-        return sc.nextLine();
+        String a = sc.nextLine();
+        return a;
+    }
+    public static void print(String m){
+        System.out.println(m);
     }
 }

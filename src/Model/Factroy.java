@@ -1,11 +1,9 @@
 package Model;
 
-import structure.BinarySearchTree;
-import structure.RedBlackSearchTree;
-import structure.SplayTree;
-import structure.Structure;
-
-import java.util.HashMap;
+import structure5.BinarySearchTree;
+import structure5.RedBlackSearchTree;
+import structure5.SplayTree;
+import structure5.Structure;
 
 public class Factroy {
     public static  Structure<WordAssociation> factory(String s){

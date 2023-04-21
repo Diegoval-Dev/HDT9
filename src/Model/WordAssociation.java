@@ -1,7 +1,7 @@
 package Model;
 
 public class WordAssociation implements Comparable<WordAssociation> {
-    private Assosiation<String, Word> association;
+    private Assosiation<String, String> association;
 
     /**
      * Asocia la palabra con su valor
@@ -9,7 +9,7 @@ public class WordAssociation implements Comparable<WordAssociation> {
      * @param value objto palabra
      */
 
-    public WordAssociation(String key, Word value) {
+    public WordAssociation(String key, String value) {
         this.association = new Assosiation<>(key, value);
     }
 
@@ -17,7 +17,7 @@ public class WordAssociation implements Comparable<WordAssociation> {
         return association.getKey();
     }
 
-    public Word getValue() {
+    public String getValue() {
         return association.getValue();
     }
 
